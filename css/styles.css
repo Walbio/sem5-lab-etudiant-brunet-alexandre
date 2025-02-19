@@ -36,9 +36,13 @@ body {
 /*------------------------------------------------------------------------------
    Modules
 ------------------------------------------------------------------------------*/
+/* ===== Numéro 3f ===== */
+header {
+    padding: 20px 0;
+}
 
 /* ===== Numéro 3a ===== */
-header .wrapper {
+header .wrapper {   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,24 +75,14 @@ header .wrapper {
     /* Pas regroupable */
     text-transform: uppercase;
     text-decoration: none;
+    /* Ajout bordure invisible */
+    border: 2px solid transparent;
 }
 
 /* ===== Numéro 3e ===== */
 .menu a:hover {
-    border-color: #000;
-    border-style: solid;
-    border-width: 2px;
+    border: 2px solid #000;
 }
-
-/* ===== Numéro 3f ===== */
-/*
-header {
-    padding-top: 20px;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 20px;
-}
-*/
 
 /* ===== Numéro 4a ===== */
 /*
